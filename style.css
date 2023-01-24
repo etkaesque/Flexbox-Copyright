@@ -1,0 +1,192 @@
+*, *::before, *::after {
+    box-sizing: border-box; }
+
+
+body {
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+p {
+    color: rgb(200, 200, 200);
+}
+
+.header {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo-wrapper {
+
+    margin-top: 100px;
+}
+
+.logo-wrapper img {
+
+    width: 100px;
+    height: 100px;
+
+}
+
+.header-text {
+
+    text-align: center;
+}
+
+.header-text {
+
+    max-width: 35%;
+    margin-bottom: 30px;
+
+
+
+}
+
+.buttons {
+
+    display: flex;
+    justify-content: center;
+    gap:10px;
+ 
+    
+}
+
+.ios {
+
+    background-color: lightgreen;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    box-shadow: 5px 10px 30px rgb(209, 206, 206);
+}
+
+.mac {
+
+    background-color: lightblue;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    box-shadow: 5px 10px 30px rgb(209, 206, 206);
+
+}
+
+.main {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.snippet {
+
+    width: 35%;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+
+.computer {
+
+    display: flex;
+    flex: nowrap;
+    gap:100px
+}
+
+.computer-section-1 {
+
+    margin-bottom: 20px;
+    width: 55%;
+
+}
+
+.three-things {
+    display: flex;
+    row-gap: 30px;
+    width: 70%;
+    align-items: baseline;
+
+}
+
+.three-things {
+    text-align: center;
+  
+}
+
+.three-things-inner {
+    width: calc(100%/3);
+}
+
+.partners {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:150px;
+    align-items: center;
+
+}
+
+.footer {
+
+    background-color: whitesmoke;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+
+}
+
+.footer-nav-wrapper {
+
+    width: calc(100%/3*2);
+}
+
+.footer-nav {
+
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+a {
+    text-decoration: none;
+}
+.footer-media-wrapper {
+    display: flex;
+    width: calc(100%/3);
+}
+
+.footer-img-wrapper {
+    width: calc(100%/3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-logo {
+
+    width: 50px;
+    height: 50px;
+}
+
+.footer-media-wrapper {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+
+}
